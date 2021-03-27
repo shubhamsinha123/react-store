@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Table } from 'react-bootstrap';
-// import '../Footer.css'
+import '../Footer.css'
 
 const list1 = ["About Us", "Delivery Information","Privacy Policy","Terms & Conditions"];
 const list2 = ["Contact Us", "Returns", "Site Map"];
@@ -12,7 +12,7 @@ class Footer extends React.Component{
 render() {
     return (
 
-<div class="container">
+<div class="container footer-main">
 <div class="row">
 <div class="col-sm-3">
 <h5>Information</h5>
